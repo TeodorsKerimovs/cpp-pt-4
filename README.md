@@ -1,10 +1,10 @@
 # Path tracing group 4
 
 # Group
+- Teodors Kerimovs
 - Lauri Wilppu
 - Verneri Hakkarainen
 - Dang Ly
-- Teodors Kerimovs
 
 # Overview
 This project is a ray tracer with basic features and a graphical user interface for image preview. Ray tracer is used to simulate light rays to make more realistic pictures. Our ray tracer features natural light from the sky or additionally from light source objects. Other features include different shapes: ball, box and rectangle. The camera is modifiable with changeable zoom, position, orientation, field of view and shutter speed for moving objects. The project also features different kinds of materials: matte colors, glossy (metal) colors and glass.
@@ -18,7 +18,7 @@ See folder doc for detailed documentation
 This project is developed as a group project of Aalto University ELEC-A7151 Object-oriented Programming with C++ course in 2023. The responsible teacher for the course was Yusein Ali, and the project advisor was Markus Säynevirta.
 
 The project was developed by:
-- Dang Ly
 - Teodoros Kerimovs
 - Lauri Wilppu
 - Verneri Hakkarainen
+- Dang Ly
