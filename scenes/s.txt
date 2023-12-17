@@ -1,0 +1,79 @@
+BSCENE
+    BIMAGEPARAMS
+        aspect_ratio 1.0 / 1.0
+        image_width 600
+        samples_per_pixel 40
+        max_depth 40
+    EIMAGEPARAMS
+
+    BCAMERAPARAMS
+        lookfrom 300 300 300
+        lookat 0.0 0.0 0.0
+        vup 1 0 0
+	vfov 20
+        aperture 0.01
+        dist_to_focus 10.0
+        background_color 0 0 0
+        skylight 0
+    ECAMERAPARAMS
+    
+    BADDOBJ
+        object_sphere
+        material metal
+	color 1 0 0
+	coef 0.5
+        radius 30.0
+        location 20.0 20.0 0.0
+    EADDOBJ
+
+    BADDOBJ
+        object_sphere
+        material lambertian
+	color 0 1 0
+        radius 35.0
+        location 40.0 20.0 12.0
+    EADDOBJ
+
+    BADDOBJ
+        object_box
+        material diffuse_light
+        color 15 15 15 
+        minpoint 0.0 0.0 0.0
+        maxpoint 50.0 50.0 50.0
+    EADDOBJ 
+       
+    BADDOBJ
+        object_yz_rect
+        material diffuse_light
+        color 15 15 15 
+        miny 0.0
+        maxy 100
+	minz 0
+	maxz 100
+	x 0
+    EADDOBJ
+
+    BADDOBJ
+        object_xz_rect
+        material diffuse_light
+        color 15 15 15 
+        minx 0.0
+        maxx 120
+	minz 0.0
+	maxz 80
+	y 0
+    EADDOBJ
+
+    BADDOBJ
+        object_xy_rect
+        material diffuse_light
+        color 15 15 15 
+        minx 0.0
+        maxx 70
+	miny 0.0
+	maxy 130
+	z 0
+    EADDOBJ
+
+
+ESCENE

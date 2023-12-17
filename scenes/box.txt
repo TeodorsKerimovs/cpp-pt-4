@@ -1,0 +1,27 @@
+BSCENE
+    BIMAGEPARAMS
+        aspect_ratio 1.0 / 1.0
+        image_width 600
+        samples_per_pixel 40
+        max_depth 40
+    EIMAGEPARAMS
+
+    BCAMERAPARAMS
+        lookfrom 300 300 300
+        lookat 0.0 0.0 0.0
+        vup 1 0 0
+	vfov 20
+        aperture 0.01
+        dist_to_focus 10.0
+        background_color 0 0 0
+    ECAMERAPARAMS
+    
+    BADDOBJ
+        object_box
+        material diffuse_light
+        color 15 15 15 
+        minpoint 0.0 0.0 0.0
+        maxpoint 50.0 50.0 50.0
+    EADDOBJ 
+       
+ESCENE

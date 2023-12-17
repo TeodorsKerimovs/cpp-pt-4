@@ -1,0 +1,104 @@
+BSCENE
+    BIMAGEPARAMS
+        aspect_ratio 1.0 / 1.0
+        image_width 600
+        samples_per_pixel 200
+        max_depth 50
+    EIMAGEPARAMS
+
+    BCAMERAPARAMS
+        lookfrom 278 278 -800
+        lookat 278 278 0.0
+        vup 1 0 0
+	    vfov 40
+        aperture 0.01
+        dist_to_focus 10.0
+        background_color 0 0 0
+        skylight 0
+    ECAMERAPARAMS
+    
+
+    BADDOBJ
+        object_yz_rect
+        material lambertian
+        color 0.12 0.45 0.15
+        miny 0
+        maxy 555
+        minz 0
+        maxz 555
+        x 555
+    EADDOBJ
+
+    BADDOBJ
+        object_yz_rect
+        material lambertian
+        color 0.65 0.05 0.05
+        miny 0.0
+        maxy 555
+        minz 0
+        maxz 555
+        x 0
+    EADDOBJ
+
+    BADDOBJ
+        object_xz_rect
+        material diffuse_light
+        color 15 15 15 
+        minx 213
+        maxx 343
+	    minz 227
+	    maxz 332
+	    x 554
+    EADDOBJ
+
+    BADDOBJ
+        object_xz_rect
+        material lambertian
+        color 0.73 0.73 0.73 
+        minx 0
+        maxx 555
+	    minz 0
+	    maxz 555
+	    x 0
+    EADDOBJ
+
+    BADDOBJ
+        object_xz_rect
+        material lambertian
+        color 0.73 0.73 0.73 
+        minx 0
+        maxx 555
+	    minz 0
+	    maxz 555
+	    x 555
+    EADDOBJ
+
+    BADDOBJ
+        object_xy_rect
+        material lambertian
+        color 0.73 0.73 0.73 
+        minx 0
+        maxx 555
+	    miny 0
+	    maxy 555
+	    x 555
+    EADDOBJ
+
+    BADDOBJ
+        object_box
+        material lambertian
+        color 0.73 0.73 0.73 
+        minpoint 130 0 65
+        maxpoint 295 165 230
+    EADDOBJ
+
+    BADDOBJ
+        object_box
+        material lambertian
+        color 0.73 0.73 0.73 
+        minpoint 265 0 295
+        maxpoint 430 330 460
+    EADDOBJ 
+
+    
+ESCENE
