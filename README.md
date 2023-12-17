@@ -11,6 +11,29 @@ This project is a ray tracer with basic features and a graphical user interface 
   The ray tracer is built on different classes working together: Rays, objects in the world, camera, and list of objects in the world. The rays travel from the camera to the objects like in many other ray tracers. The structure and code of this project is inspired heavily on Peter Shirley's book on the topic. (https://raytracing.github.io/v3/books/RayTracingInOneWeekend.html)
   The software we have implemented reads a .txt file and makes a 3D scene out of it. The rendered picture is outputted as .jpg. The GUI lets you see a preview of the world and of the camera position. Software is built using cmake and run through terminal. The rendering of the scene may take several minutes.
 
+# How To Build
+
+Please install cMake 3.20 or higher for building our raytracer project.
+
+git clone https://version.aalto.fi/gitlab/kerimot1/cpp-pt-4.git
+git submodule update --init
+
+cd cpp-pt-4
+mkdir build
+cd build
+cmake -DBUILD_RAYTRACER=ON -DBUILD_TESTS=ON ..
+make
+
+Run example scene:
+./run_raytracer
+
+Run custom scenes from scenes folder:
+./run_raytacer ../scenes/cornell_box.txt
+
+Run unit tests:
+cd tests
+./run_unit_tests
+
 # Source code documentation
 See folder doc for detailed documentation
 
