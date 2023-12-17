@@ -1,11 +1,5 @@
 # Path tracing group 4
 
-# Group
-- Teodors Kerimovs
-- Lauri Wilppu
-- Verneri Hakkarainen
-- Dang Ly
-
 # Overview
 This project is a ray tracer with basic features and a graphical user interface for image preview. Ray tracer is used to simulate light rays to make more realistic pictures. Our ray tracer features natural light from the sky or additionally from light source objects. Other features include different shapes: ball, box and rectangle. The camera is modifiable with changeable zoom, position, orientation, field of view and shutter speed for moving objects. The project also features different kinds of materials: matte colors, glossy (metal) colors and glass.
   The ray tracer is built on different classes working together: Rays, objects in the world, camera, and list of objects in the world. The rays travel from the camera to the objects like in many other ray tracers. The structure and code of this project is inspired heavily on Peter Shirley's book on the topic. (https://raytracing.github.io/v3/books/RayTracingInOneWeekend.html)
