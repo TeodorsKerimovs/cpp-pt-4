@@ -42,7 +42,7 @@ cd tests
 ```
 
 # Source code documentation
-See folder doc for detailed documentation
+See folder /doc/ for detailed documentation
 
 # Credits
 This project is developed as a group project of Aalto University ELEC-A7151 Object-oriented Programming with C++ course in 2023. The responsible teacher for the course was Yusein Ali, and the project advisor was Markus Säynevirta.
